@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="landing page">
+            <div id="header">
+                <div class="head contact">
+                    <h1>We help you to develop.</h1>
+                    <p>
+                        this program will help you to make your business <span class="colochange"> online </span>... 
+                        <br>
+                        we help you to create:
+                        <br>
+                        android apps <span class="colochange"> | </span> ios apps <span class="colochange"> | </span> website <span class="colochange">| </span> softwares <span class="colochange"> & </span> more...
+                    </p>
+                    <a href="#service"> our services </a>
+                </div>
+            </div>
+            <img src="mockup.png" width="800px">
+
+            <div id="headtoserv"></div>
+        </section>
+        <!---------------------------------------->
+        <section id="service" class="service page">
+            
+            <div class="catagory">
+                <h3> project category : </h3>
+                <div id="android" class="projects">
+                    <i class="fab fa-android fa-9x"></i>
+                    <p>android app</p>
+                </div>
+                <div id="ios" class="projects">
+                    <i class="fab fa-apple fa-9x"></i>
+                    <p>ios app</p>
+                </div>
+                <div id="website" class="projects">
+                    <i class="far fa-window-restore fa-9x"></i>
+                    <p>website</p>
+                </div>
+                <div id="software" class="projects">
+                    <i class="fas fa-laptop-code fa-9x"></i>
+                    <p>software</p>
+                </div>
+                <div id="cyber" class="projects">
+                    <i class="fas fa-network-wired fa-9x"></i>
+                    <p>cyber security</p>
+                </div>
+                <div id="game" class="projects">
+                    <i class="fas fa-gamepad fa-9x"></i>
+                    <p>games</p>
+                </div>
+            </div>
+
+            <div class="type">
+                <h3 >project type :</h3>
+                <div id="social" class="projects"> 
+                    <i class="fas fa-share-alt fa-9x"></i>
+                    <p>social</p>
+                </div>
+                <div id="ecommance" class="projects">
+                    <i class="fas fa-comments-dollar fa-9x"></i>
+                    <p>E-commance</p>
+                </div>
+                <div id="blog" class="projects">
+                    <i class="fas fa-blog fa-9x"></i>
+                    <p>blog</p>
+                </div>
+                <div id="shop" class="projects">
+                    <i class="fas fa-shopping-cart fa-9x"></i>
+                    <p>shop</p>
+                </div>
+                <div id="art" class="projects">
+                    <i class="fab fa-autoprefixer fa-9x"></i>
+                    <p>art</p>
+                </div>
+                <div id="cms" class="projects">
+                    <i class="fas fa-calculator fa-9x"></i>
+                    <p>CMS</p>
+                </div>
+            </div>
+
+            <div class="define">
+                <h3>define project :</h3>
+                
+                <div class="info">
+                    <form>
+                        <textarea  id="text" cols="30" rows="10"></textarea>
+                        <div class="names">
+                            <input id="name" class="email" type="text" placeholder="PROJECT NAME">
+                            
+                            <input id="email" class="email" type="email" placeholder="YOUR E-MAIL">
+                        </div>
+                        <div class="price">
+                            <input type="range" min="100" max="100000" step="1" onchange="showVal(this.value)">
+                            <span class="doller">$</span> <span id="valBox">100</span>
+                        </div>
+                        <button onclick="checkemail()" type="button">submit form</button>
+                    </form>
+                </div>
+            </div>
+
+            
+            
+            <div style="clear:both;">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

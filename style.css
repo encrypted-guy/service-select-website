@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Signika', sans-serif;
+}
+section {
+    width: 100%;
+    
+    /*
+    height: 100vh;
+    */
+}
+#header {
+    height: 75vh;
+    background: #8333e9;
+
+    display: flex;
+	flex-direction: column;
+	text-align: center;
+	
+	align-items: center;
+	justify-content: center;
+}
+.contact {
+    display: flex;
+	flex-direction: column;
+	text-align: center;
+    margin-top: -15rem;
+	align-items: center;
+	justify-content: center;
+}
+.contact h1 {
+    font-size: 2rem;
+    color: aliceblue;
+    line-height: 4rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 0 0 5px #000000;
+}
+.contact p {
+    font-weight: lighter;
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    text-shadow: 0 0 5px #000000;
+}
+.colochange {
+    color: #fa6095;
+    text-shadow: 10px 10px 10px #000;
+}
+.contact a {
+    padding: 10px;
+    outline: none;
+    background: #fa6095;
+    color: aliceblue;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #333;
+}
+.contact a:hover {
+    background: aliceblue;
+    color: #fa6095;
+    text-shadow: 0 0 2px #000;
+    transition: 1s;
+
+}
+.contact a:active{
+    box-shadow: none;
+    transition: .3s;
+
+}
+img {
+    position: absolute;
+    left:0; 
+    bottom:0;
+    right:0;
+    top: 50;
+    
+    margin: auto;
+
+    /*to make the image responsive*/
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#headtoserv {
+    height: 25vh;
+    background: linear-gradient(to bottom, #8333e9 0%, #ffffff 100%);
+}
+
+/*-----------------------------------------------*/
+.service {
+    background: linear-gradient(to bottom, #ffffff 0%, #dec9f9 100%);
+    
+}
+.catagory{
+    margin-top: 10rem;
+    height: 40rem;
+}
+.catagory h3 {
+    font-size: 3rem;
+    float: left;
+    margin-top: 7rem;
+    height: 500px;
+    color: #8333e9;
+    text-shadow: 0 0 3px #8333e9;
+}
+.projects {
+    height: 200px;
+    width: 200px;
+    border:7px solid #8333e9;
+    color: #8333e9;
+    background: #fff;
+    border-radius: 20px;
+    text-shadow: 0 0 2px #000;
+    text-align: center;
+    padding-top: 2rem;
+    float: left;
+    margin: 35px;
+}
+.projects p {
+    margin: 5px;
+    color: #000;
+}
+.projects:hover{
+    border:7px solid #fa6095;
+    color: #fa6095;
+    box-shadow: 5px 5px 10px 1px #A9A9A9;
+    transition: 0.5s;
+    
+}
+.type {
+    margin-top: 10rem;
+    height: 40rem;
+}
+.type h3 {
+    font-size: 3rem;
+    float: left;
+    margin-top: 7rem;
+    height: 500px;
+    color: #8333e9;
+    text-shadow: 0 0 3px #8333e9;
+}
+
+.define h3 {
+    font-size: 3rem;
+    float: left;
+    margin-top: 7rem;
+    height: 500px;
+    color: #8333e9;
+    text-shadow: 0 0 3px #8333e9;
+}
+.info {
+    float: left;
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+textarea {
+    width: 800px;
+    height: 200px;
+    border: none;
+    outline: none;
+}
+textarea:focus{
+    box-shadow: 0 0 10px #8333e9;
+    transition: 0.5s;
+}
+.names {
+    margin: 20px;
+}
+input {
+    width: 300px; 
+    margin: 30px;
+    height: 30px;
+    color: #8333e9;
+    border: none;
+}
+.email:focus{
+    box-shadow: 0 0 10px #8333e9;
+    transition: 0.5s;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    background-color: #fa6095;
+    width: 600px;
+    height: 2px; 
+    outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #8333e9;
+    opacity: 1;
+    width: 30px;
+    height: 10px;
+    border-radius: 20px;
+}
+#valBox {
+    color: #8333e9;
+    font-size: 2rem;
+}
+.doller {
+    color: #8333e9;
+    font-size: 2rem;
+}
+button {
+    height: 30px;
+    width: 200px;
+    border: none;
+    color: #ffff;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    background: #8333e9;
+    margin-bottom: 200px;
+}
+button:hover {
+    background: #fff; 
+    color: #8333e9;
+    box-shadow: 0 0 10px #8333e9;
+    transition: 0.5s; 
+}
+button:active {
+  font-size: 1rem;
+}
+ 
